@@ -41,14 +41,14 @@
 비교적 간단한 코드에서 너무 인터페이스와 클래스화 시키면서 코드가 비약적으로 길어지는 문제가 발생할 수도 있다.
 
 
-2022-04-05
-JVM,  JRE, JDK, 개념 간단 정리.
+# 2022-04-05
+## JVM,  JRE, JDK, 개념 간단 정리.
 ![](https://media.vlpt.us/images/soe8192/post/84268872-865c-4706-8727-9d79f6ac3113/image.png)
 
 
-JVM : Java Virtual Machine
+## JVM : Java Virtual Machine
 
-자바 가상머신이다.
+### 자바 가상머신이다.
 
 .java로 부터 만들어지는 바이너리 파일. 즉, .class파일을 실행할 수 있다.
 유일하게 플랫폼에 의존적인 부분인데
@@ -57,16 +57,16 @@ JVM : Java Virtual Machine
 단지 번역되는 결과물이 다를 뿐이다.
 이 부분은 리눅스와 윈도우의 기계어가 다르게 구성되어지기 때문에 단점이 아닌 어쩔 수 없는 부분이다.
 
-JRE : Java Runtime Environment
+## JRE : Java Runtime Environment
 
-자바 실행환경이다.
+### 자바 실행환경이다.
 
 자바도 파이썬처럼 프로그램을 실행할 때 필요한 패키지(라이브러리)를 가지고 있어야 실행이 된다.
 이러한 환경을 구성하는 부분을 JRE라 하며 JVM이 실행되기 위한 실행환경이기도 하다.
 
-JDK : Java Development Kit
+## JDK : Java Development Kit
 
-자바 개발 도구이다.
+### 자바 개발 도구이다.
 
 실행환경과 달리 자바로 개발하는 데 사용한 도구들로
 javac(자바 컴파일러), java, JRE 또한 이곳에 포함된다.
